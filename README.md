@@ -1,29 +1,57 @@
-# Data Scientists salary aalysis in 2020-2022
+# Bank customer classification
 
-## The mail goal
-HR agency data set analysis aimed to investigate trends in DS salary 
+## Main goal
+Developing ML model predicting bank' customer inclination to open a deposit
 
-## Analysis Tasks 
+### Tasks 
+1) EDA;
+2) Feature preprocessing;
+3) Feature selection;
+4) Data scaling;
+5) Fitting Models (LogisticRegression, DecisionTree, RandomForrest); Hyperparameter optimization; Scores evaluation
+6) 
 
-1) Define features related to DS salary;
-2) If DS salary tend to raise annualy;
-3) Is there any difference in salaries of Data Scientists & Data Engineer in2022;
-4) Is there any difference in DS salary in various company sizes;
-5) If DS positions occurence relates to company size.
+## Data set feature description
+### Customer details:
+- age;
+- job;
+- marital (relationship status);
+- education (level of education);
+- default (has got an expired credit);
+- housing (has got a housing loan);
+- loan (has got a personal loan);
+- balance.
+
+### Features related to the last contact:
+- contact (contact type with a customer);
+- month (month of the last contact);
+- day (day of the last contact);
+- duration (contact duration, seconds).
+
+### Other features:
+- campaign (quantity of contacts with a client durint the current campaign);
+- pdays (quantity of days missed since the last marketing campaign till the contact in the current campaign);
+- previous (quantity of contacts till the current campaign)
+- poutcome (the result of the previous campaign).
+
+### Target:
+- deposit. Defines if a customer agrees to open a credit in a bank.
+
 
 ## Summary
 
-    *It's statistically significant that DS salary in 2022 greater than in 2021
-    *There is no evidence to consider that in 2022 Data scientists salary is greater than Data Engineers salary
-    *It's statistically significant that Data scientist salaries are not equal in different sizes companies
-    *It's statistically significant that Data scientist salaries in Small-companies are less than in Large ones
-    *It's statistically significant that Data scientists positions occurence relates to company size
-    *It's statistically significant that Data scientists salary in US is greater than in all company locations (in total) except US
-    *It's statistically significant that Data scientists experience is related to remote type of job (remote_ratio = 100)
+    *
+    *
+    *
+    *
+    *
+    *
+    *
 
-## Использованные инструменты и библиотеки
-* pandas 2.0.1
-* seaborn 0.12.2
-* matplotlib 3.6.3
-* scipy 1.9.3
-* category-encoders 2.6.1
+## Tools used
+pandas==2.0.1
+numpy==1.23.5
+matplotlib==3.6.3
+optuna==3.3.0
+seaborn==0.12.2
+scikit-learn==1.3.0

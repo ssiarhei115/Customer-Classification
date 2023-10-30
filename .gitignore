@@ -162,7 +162,7 @@ db_hh.csv
 ExchangeRates.csv
 data/
 logs/
-.csv
+*.csv
 *.pdf
 **/data
 *.zip

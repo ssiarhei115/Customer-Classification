@@ -9,7 +9,6 @@ Developing ML model predicting bank' customer inclination to open a deposit
 3) Feature selection;
 4) Data scaling;
 5) Fitting Models (LogisticRegression, DecisionTree, RandomForrest); Hyperparameter optimization; Scores evaluation
-6) 
 
 ## Data set feature description
 ### Customer details:
@@ -39,14 +38,9 @@ Developing ML model predicting bank' customer inclination to open a deposit
 
 
 ## Summary
-
-    *
-    *
-    *
-    *
-    *
-    *
-    *
+    * Following classifiers were tested and compaired during the investigation: LogisticRegression, DecisionTree, RandomForest, GradientBoosting, Stacking
+    * DecisionTree, RandomForest, GradientBoosting models provided comparable scores after hyperparameters optimization  
+    * The best scores obtained with StackingClassifier after threshold optimizing: f1-score=0.83, accuracy=0.83
 
 ## Tools used
 pandas==2.0.1
